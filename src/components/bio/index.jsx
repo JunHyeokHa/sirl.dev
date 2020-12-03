@@ -7,7 +7,7 @@ import './index.scss'
 export const Bio = () => (
   <StaticQuery
     query={bioQuery}
-    render={data => {
+    render={(data) => {
       const { author, social, introduction } = data.site.siteMetadata
 
       return (
@@ -62,7 +62,7 @@ export const Bio = () => (
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile.png/" }) {
+    avatar: file(absolutePath: { regex: "/profile.jpg/" }) {
       childImageSharp {
         fixed(width: 72, height: 72) {
           ...GatsbyImageSharpFixed
