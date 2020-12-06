@@ -1,8 +1,8 @@
 module.exports = {
   title: `sirl.dev`,
-  description: `Blog posted about ...`,
+  description: `Love Development. Love Escape Room. Love Jin.`,
   author: `JunHyeok Ha`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
+  introduction: `I am Frontend Engineer at Stealien. Interested in React.js and Escape Room.`,
   siteUrl: `https://sirl.dev`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
@@ -21,7 +21,7 @@ module.exports = {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'sirl',
+    buyMeACoffeeId: '',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
